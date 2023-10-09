@@ -1,0 +1,202 @@
+/* Reset some default browser styles */
+body, h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+body {
+    background: url(https://metro.co.uk/wp-content/uploads/2023/03/GettyImages-1470561143.jpg?quality=90&strip=all);
+}
+
+header {
+    background-color: #8b2525;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+
+.box1 {
+    background-color: #ff4800;
+    border-radius: 5px;
+    padding: 7px;
+    transition: background-color 0.3s;
+    
+    
+}
+
+.box1:hover {
+    background-color: rgb(141, 233, 67);
+}
+
+.box2 {
+    background-color: #e05239;
+    border-radius: 5px;
+    padding: 7px;
+    transition: background-color 0.3s;
+}
+
+.box2:hover {
+    background-color: gold;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#A {
+    color: #f33838;
+    text-decoration: none;
+}
+
+#Ar {
+    color: #cbeb40;
+    text-decoration: none;
+}
+
+#Ars {
+    color: #2d5c5e;
+    text-decoration: none;
+}
+
+#M {
+    color: rgb(13, 138, 240);
+    text-decoration: none;
+}
+
+#U {
+    color: #b1281f;
+    text-decoration: none;
+}
+
+#B {
+    color: rgb(45, 22, 255);
+    text-decoration: none;
+}
+
+#W {
+    color: rgb(255, 196, 0);
+    text-decoration: none;
+}
+
+#E {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+
+
+
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f44336;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d66161;
+}
+
+
+.Highlights {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.highlights-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.highlights-card img {
+    max-width: 100%;
+}
+
+.hl{
+    font-size: 28px;
+}
+
+
+
+footer {
+    background-color: #f33838;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+

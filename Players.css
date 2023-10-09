@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+
+header {
+    
+    background-image: url(https://images5.alphacoders.com/115/1157178.png);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: inline;
+    padding: 5px 30px;
+    color: black;
+    font: bold;
+    
+    
+}
+
+h1:hover{
+    color: rgb(212, 12, 12);
+}
+
+h4 {
+    color: #777;
+}
+
+
+
+.player {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+
+.card-list {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.card {
+    background-color: #1a1515f3;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 4px rgba(233, 17, 17, 0.747);
+}
+
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    color: rgb(252, 12, 12);
+    
+}
+
+
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    
+}
+
+
+.card p {
+    font-size: 16px;
+    color: #777;
+}
+
+
+.flag {
+    text-decoration: none;
+    color: #b93a3a;
+}
+
+footer {
+    background-image: url(https://images5.alphacoders.com/115/1157178.png);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+ .footer-content {
+     max-width: 1200px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .social-links a {
+     color: #fff;
+     text-decoration: none;
+     margin: 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #f52828;
+}
